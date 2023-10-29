@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Jost&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.collection-menu {
+  margin: 80px 0;
+}
+
+.title-heading {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.title-heading span {
+  color: #8a0101 !important;
+  font-style: italic;
+}
+
+.trending-section {
+  margin: 40px 100px 0 100px;
+}
+
+.trending-looks {
+  display: flex;
+}
+
+.trending-card {
+  margin-right: 20px;
+}
+.trending-card img {
+  width: 240px;
+  height: 400px;
+}
+
+.trending-card p {
+  width: 215px;
+  position: relative;
+  bottom: 80px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0 20px;
+  font-family: "Heebo", sans-serif;
+}
+
+.collection-section {
+  margin: 40px 0 40px 220px;
+}
+
+.collection-section img {
+  width: 220px;
+  height: 300px;
+  margin-right: 40px;
+}
+
+.bestSeller-list {
+  display: flex;
+  margin: 40px 100px 60px 100px;
+}
+
+.wishlist {
+  position: relative;
+  padding: 14px 4px 0 4px;
+  bottom: 390px;
+  left: 200px;
+  border-radius: 8px 8px 8px 0px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.card-image {
+  width: 240px;
+  height: 400px;
+}
+
+.product-menu {
+  width: 260px;
+  color: #111;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.customer-list {
+  margin: 40px 100px;
+  display: flex;
+}
+
+.customer-panel {
+  background: #efe7ce;
+  padding: 30px;
+  margin-right: 20px;
+}
+
+.customer-panel p {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.customer-panel p:nth-child(2) {
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.customer-panel p:nth-child(4) {
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+h3 span a {
+  color: #8a0101 !important;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+
+.information-section{
+  background-color: #EFE7CE;
+
+}

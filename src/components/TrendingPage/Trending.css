@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Jost&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.trending-menu {
+  text-align: center;
+}
+
+.trending-menu span {
+  color: #8a0101;
+  font-style: italic;
+}
+
+.heading {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.favorite-div {
+  position: relative;
+  border: 1px solid #fff;
+  padding: 14px 4px 0 4px;
+  bottom: 390px;
+  left: 100px;
+  border-radius: 8px 8px 8px 0px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.favorite-div img {
+  cursor: pointer;
+}
+
+.trending-list {
+  display: flex;
+  margin: 40px 100px;
+}
+
+.card .card--image {
+  width: 250px;
+  height: 400px;
+}
+
+.product-name {
+  width: 260px;
+  color: #111;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 13px;
+  white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  text-align: left;
+  margin-left: 13px;
+}
+
+.Service-Menu {
+  background-color: #efe7ce;
+}
+
+.Service-icon {
+  background-image: url("./src/assets/Service-bg.png");
+  width: 125px;
+  height: 125px;
+}
+
+.Service {
+  display: flex;
+  padding: 75px 0;
+  margin: 0px 40px 0 230px;
+}
+
+.Service-list {
+  margin-right: 160px;
+}
+
+.Service-list p {
+  font-family: Archivo;
+  font-size: 20px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+
+.Service-icon img {
+  margin: 20px 0;
+}

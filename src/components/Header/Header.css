@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Jost&family=Playfair+Display&display=swap");
+
+.top-heading {
+  background-color: var(--3, #c1a863);
+}
+
+.headernote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headernote img {
+  padding: 6px 0px 0px 0px;
+}
+.headernote p{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Playfair Display;
+
+}
+
+.listitem-menu div , .icon-container div{
+  cursor: pointer;
+}
+
+.main-header {
+  background-image: url("./src/assets/background.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+
+  font-family: Archivo;
+}
+.button-container {
+  display: flex;
+  gap: 30px;
+}
+.button-container div {
+  font-size: 18px;
+  color: #fff;
+}
+.icon-container {
+  display: flex;
+  gap: 20px;
+}
+.icon-container img{
+  height: 30px;
+  width: 30px;
+}
+.listitem-menu {
+  background-image: url("../../assets/background.png");
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+  padding: 20px 0px 15px 0px;
+  align-items: center;
+  font-family: Archivo;
+  margin-top: -8px;
+}

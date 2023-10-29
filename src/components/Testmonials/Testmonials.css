@@ -1,0 +1,73 @@
+.title-heading span {
+  color: #8a0101 !important;
+  font-style: italic;
+}
+
+.testmonial-menu {
+  border-radius: 0px 90px;
+  background: #c6ad8a;
+  width: 1150px;
+  height: 430px;
+  padding: 45px;
+  display: flex;
+  margin: 30px 180px;
+}
+
+.testmonials-section {
+  margin: 30px 0 0 0;
+}
+
+.review-div {
+  color: #000;
+  font-family: Archivo;
+  font-size: 22px;
+  font-style: normal;
+  margin-left: 20px;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  text-transform: capitalize;
+}
+
+.h3 span a {
+  color: #8a0101 !important;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+.information-section {
+  margin-top: 50px;
+}
+
+.info-menu {
+  display: flex;
+  padding: 75px 230px;
+}
+
+.info-icon {
+  background-image: url("./src/assets/Service-bg.png");
+  width: 125px;
+  height: 125px;
+  margin-right: 100px;
+}
+
+.info-icon img {
+  margin: 20px;
+}
+
+.info-list p {
+  font-family: Archivo;
+  font-size: 20px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+
+.info-list{
+    margin: 20px 0;
+}
